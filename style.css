@@ -1,0 +1,94 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+
+/* .box{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+} */
+
+/* Overflow prop */
+/* 
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    overflow: scroll;
+} */
+
+/* vw= viewport width , vh = viewport height */
+
+/* 
+.box{
+    width: 50vw;
+    height: 100vh;
+    background-color: yellow;
+    overflow: scroll;
+} */
+
+
+/* positioning the boxes */
+
+/* .boxes{
+    border: 5px solid cornflowerblue;
+height: 200vh;
+}
+
+.box{
+    width:100px;
+    height: 100px;
+}
+
+.box-one{
+    background-color: yellow;
+}
+
+.box-two{
+    background-color: red;
+    position: fixed;
+    top:0
+}
+
+.box-three{
+    background-color: pink
+    ;
+}
+ */
+
+
+/* 
+ media query make responsive web page */
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    border: 2px solid green;
+}
+
+p{
+    line-height: 2rem;
+}
+.box{
+    background-color: yellow;
+    
+}
+
+.box:nth-last-of-type(2){
+    background-color: blue ;
+}
+
+
+@media screen and (min-width: 400px) {
+    .container{
+        flex-direction: row;
+    }
+}
+
+
+
+/* 
+use different pixels of image in different type of device  */
